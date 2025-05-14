@@ -47,15 +47,21 @@ sudo apt-get install grafana
 
 #### start Grafana server
 
+```bash
 sudo systemctl start grafana-server
+```
 
 #### enable grafana for system restart
 
+```bash
 sudo systemctl enable grafana-server
+```
 
 #### check grafana-server status
 
+```bash
 sudo systemctl status grafana-server
+```
 
 #### grafana web ui - open in a browser
 
